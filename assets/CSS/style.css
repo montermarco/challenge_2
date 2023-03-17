@@ -33,7 +33,7 @@ header ul {   /* ---- Menu  */
     padding-right: 40px;
 }
 
-header ul li {
+header ul li {   /* ---- Menu items  */ 
     margin-left: 30px;
     text-decoration: underline;
 }
@@ -44,11 +44,11 @@ figure {
     position: relative;
 }
 
-/* #welcome{         I CANT GET THE IMAGE TO BEHAVE.
-    object-fit: contain;
-} */
+#welcome{     /* ---- Fungi Image  */ 
+    width:100%;
+}
 
-figure div{
+figure div{     /* ---- Full stack dev box  */
     background-color: #846562;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #332f34;
@@ -63,6 +63,43 @@ figure div{
     border-radius: 50px;
 }
 
-/* ------------- This is the BODY section  */
+/* ------------- This is the MAIN section  */
+.AboutMe{  /*  section  */
+    display: flex;
+    padding: 50px;
+}
 
+.title{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#4D2B2C;
+    font-size: 30px;
+    margin-left: 7%;
+    text-align: right;
+}
+
+line{
+    background-color: #39262F;
+    width: 5px;
+    height: 100px;
+    margin-left: 3%;
+}
+
+
+#paragraph { /* ---- About me paragraph  */
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 3%;
+    margin-right: 5.5%;
+}
+
+.Work{
+    background-color: blue;
+    display: inline;
+    position: relative;
+}
+
+.Example1{
+    background-color: red;
+    /* display: block; */
+    justify-content: center;
+}
 
