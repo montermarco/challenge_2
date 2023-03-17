@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CHALLENGE2</title> <!-- Change name later  -->
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" /> -->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" /> <!-- Make sure you don´t have to put the css inside a CSS folder inside assets  -->
 </head>
 
@@ -13,10 +12,10 @@
     <header > 
             <h1>Ximena Cu</h1>
         <ul>
-            <li>About Me</li>
-            <li>Work</li>
-            <li>Contact Me</li>
-            <li>Resume</li>
+            <li><a href="#About-Me">About Me</a></li>
+            <li><a href="#My-Work">My Work</a></li>
+            <li><a href="#Contact-Me">Contact Me</a></li>
+            <li><a href="#Resume">Resume</a></li>
         </ul>
     </header>
 
@@ -26,7 +25,7 @@
     </figure>
 
     <main>
-        <section class="AboutMe">
+        <section id="About-Me" class="AboutMe">
             <h1 class="title">About Me</h1>
             <line></line>
             <p id="paragraph">This is a paragraph about me that is so great that is going to make me hired by a great company
@@ -37,18 +36,38 @@
                 and eventualy make me so rich I will buy my own appartment and be happy.</p>
         </section>    
 
-        <section class="Work">
-            <h1 class="title">Work</h1>
-            <line></line>
-            <div class="Example1">
-                <!-- <img id="Ex1" src="./assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="placeholder"/>   -->
-                <div class="Workexamples">
-                    <h4>Work example 1</h4>
-                    <p>Work example subtitle</p>
+        <section id="My-Work" class="Work1">
+
+
+            <!-- <div class="bigexample"> -->
+                <div class="bigbox">
+                    <h1 class="title">Work</h1>
+                    <line></line>   
+                    <img id="imagefromhell" src="./assets/images/img2.jpg" alt="placeholder"/>
+                    <div> <p>Super Website</p><h>What the wesite is.</h></div>
                 </div>
-            </div>
+
+                <div class="splitbox">
+                    <img id="imagefro" src="./assets/images/babypurple.jpg" alt="placeholder"/>
+                    <img id="imagefro" src="./assets/images/img4.jpg" alt="placeholder"/>
+                </div>
+                <!-- <div class="splitbox">
+                    <img id="imagefro" src="./assets/images/babypurple.jpg" alt="placeholder"/>
+                    <img id="imagefro" src="./assets/images/babypurple.jpg" alt="placeholder"/>
+                </div> -->
+
+                <!-- <article>
+                    <img id="imagefromhell" src="./assets/images/babypurple.jpg" alt="placeholder"/>  
+                    <div class="Workexample">
+                        <p id="headingex">Work example 1</p>
+                        <p>Work example subtitle</p>
+                    </div>
+                </article> -->
+            <!-- </div> -->
+        </section>
+
             <div class="Exs">
-                <!-- <img src="./assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="placeholder"/> does the image look good? class="float-left"  -->
+                <!-- <img src="./assets/images/carlos-muza-hpjSkU2UYSU-unsplash.jpg" alt="placeholder"/> 
                 <div class="Workexamples">
                     <h4>Work example 2</h4>
                     <p>Work example subtitle</p>
@@ -75,9 +94,9 @@
                     <p>Work example subtitle</p>
                 </div>
             </div>
-        </section>  
+          
 
-        <section class="Contact">
+        <section id="Contact-Me" class="Contact">
             <h1 class="title">Contact Me</h1>
             <line></line>
             <ul>
