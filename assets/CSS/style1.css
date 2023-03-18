@@ -1,0 +1,139 @@
+body{
+    background-color: white;
+}
+
+header {
+    background-color: #92C15A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+header h1{  /* ---- Ximena Cu  */
+    font-size: 40px;
+    color: #3B7020;
+}
+
+header ul {   /* ---- Menu  */ 
+    width: 54%;
+    display: flex;
+    justify-content:space-around;
+    color: orange;
+    font-size: 20px;
+}
+
+/* ------------- This is the welcome image section  */
+figure{
+    position:relative
+}
+
+#welcomeimg{
+    width: 100%;
+    height: 300px;
+}
+
+figure div{
+    position: absolute;
+    background-color: #3B7020;
+    color: #0C1D0F;
+    bottom: 20%;
+    right: 10%;
+    width: 20%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+}
+
+/* ------------- This is the MAIN section  */
+main{
+    padding:4% 7%;
+}
+
+.title{
+    border-right:6px solid #153A15 ;
+    color: #153A15;
+    padding-right: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    text-align: right;
+}
+
+main img{
+    border: 15px solid #92C15A;
+}
+
+/* ------------- This is the about me section  */
+.aboutMe{
+    display: flex;
+    margin-bottom: 7%;
+}
+
+.aboutMe p{
+    padding-left: 20px;
+    /* font-size: 20px; */
+}
+
+/* ------------- This is the My Work section  */
+.myWork{
+    display: flex;
+}
+
+.bigbox{
+    margin-bottom: 3%;
+    position: relative;
+}
+
+#bigimg{
+    width:65%;
+    margin-left: 17.5%;
+}
+
+.bigbox div{
+    position: absolute;
+    background-color: #92C15A;
+    margin-left: 17.5%;
+    bottom: 15%;
+}
+/* ------------------------------------  */
+.lilboxes{  
+    /*  */
+    margin-left: 200px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.lilboxesboxes{ 
+    width: 50%;
+    position: relative;
+}
+
+#smallimgs{
+    width: 70%;
+    justify-content: right;
+}
+
+.lilboxesboxes div{
+    background-color: #92C15A;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    height: 15%;
+}
+
+#imgsA{
+    margin: auto;
+}
+
+/* ------------- This is the Contact Me section  */
+.contactMe{
+    display: flex;
+    justify-content:space-evenly;
+    padding: 5%;
+}
+
+.contactMe ul {   /* ---- Menu  */ 
+    width: 54%;
+    display: flex;
+    justify-content:space-around;
+}

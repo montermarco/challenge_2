@@ -54,9 +54,9 @@ figure div{     /* ---- Full stack dev box  */
     color: #332f34;
     width: 20%;
     height: 60px;
-    display: flex;
+    /* display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
     position: absolute;
     bottom: 50px;
     right: 50px;
