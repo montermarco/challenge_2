@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <header > 
-        <h1>Ximena Cu</h1>
+    <header >  <!-- This is the HEADER section. -->
+             <h1>Ximena Cu</h1>
     <ul>
         <li><a href="#About-Me">About Me</a></li>
         <li><a href="#My-Work">My Work</a></li>
@@ -20,14 +20,13 @@
     </ul>
 </header>
 
-<figure>  <!-- This is the welcome image section. -->
+<figure>  <!-- This is the WELCOME IMAGE section. -->
     <img id="welcomeimg" src="./assets/images/green1.jpg" alt="Welcome image."/> 
-    <div> <h2>Full</h2><h2>Stack</h2><h2>Developer</h2>
-    </div>
+    <div> <h2>Full</h2><h2>Stack</h2><h2>Developer</h2> </div>
 </figure>
 
-<main>
-    <section class="aboutMe"> <!-- This is the about me section. -->
+<main> <!-- This is the MAIN section. -->
+    <section class="aboutMe" id="About-Me"> <!-- This is the ABOUT ME section. -->
         <h1 class="title">About Me</h1>
         <p>This is a paragraph about me that is so great that is going to make me hired by a great company
             and eventualy make me so rich I will buy my own appartment and be happy.
@@ -37,53 +36,57 @@
             and eventualy make me so rich I will buy my own appartment and be happy.</p>
     </section>
 
-    <section class="myWork"> <!-- This is the MY WORK section. -->
+    <section class="myWork" id="My-Work"> <!-- This is the MY WORK section. -->
         <h1 class="title">My Work</h1>
-        <section class="boxes">
-
-            <section class="bigbox">
+        <section> <!-- class="boxes" -->
+            <section class="bigbox"> 
                 <img id="bigimg" src="./assets/images/whitecomputer.jpg" alt="Work Example 1"/> 
                 <div><h1>Big Website</h1><p>Big Website that is amazing.</p></div>
             </section>
 
             <section class="lilboxes">
-
-                <section class="lilboxesboxes" id="imgsA">
+                <section class="updown">
                     <img id="smallimgs" src="./assets/images/workexample1.jpg" alt="Work Example 2"/> 
-                    <div><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
+                    <div class="text" id="left"><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
+
+                    <img id="smallimgs" src="./assets/images/workexample2.jpg" alt="Work Example 3"/> 
+                    <div class="text" id="right"><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
                 </section>
 
-                <section class="lilboxesboxes" id="imgsB">
-                    <img id="smallimgs" src="./assets/images/workexample2.jpg" alt="Work Example 2"/> 
-                    <div><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
+                <section class="updown">
+                    <img id="smallimgs" src="./assets/images/workexample2.jpg" alt="Work Example 4"/> 
+                    <div class="text" id="left"><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
+
+                    <img id="smallimgs" src="./assets/images/workexample1.jpg" alt="Work Example 5"/> 
+                    <div class="text" id="right"><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
                 </section>
 
-                <section class="lilboxesboxes" id="imgsA">
-                    <img id="smallimgs" src="./assets/images/workexample2.jpg" alt="Work Example 2"/> 
-                    <div><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
-                </section>
-
-                <section class="lilboxesboxes" id="imgsB">
-                    <img id="smallimgs" src="./assets/images/workexample1.jpg" alt="Work Example 2"/> 
-                    <div><h1>Cool Website</h1><p>Cool Website that is amazing.</p></div>
-                </section>
- 
             </section>
         </section>
-        
     </section>
 
-    <section class="contactMe">
+    <section class="contactMe" id="Contact-Me"> <!-- This is the CONTACT ME section. -->
         <h1 class="title">Contact Me</h1>
         <ul>
-            <li>442 3 18 50 33</li>
+            <li>Cel. (442) 3 18 50 33</li>
             <li>ximenacuu@gmail.com</li>
             <li>Github</li>
             <li>Twitter</li>
         </ul>
     </section>
+ 
+    <section id="Resume"> <!-- This is the RESUME section. -->
+    <h1 class="title">Resume</h1>
+    <div>
+    <p>This is where the resume will be.</p>
+    </div>
+    </section>
 
 </main>
+
+<footer>
+        <h2>Made with ❤️️ by Ximena</h2>
+    </footer>
 
 </body>
 

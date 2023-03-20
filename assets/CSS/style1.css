@@ -2,28 +2,40 @@ body{
     background-color: white;
 }
 
+/* ------------- This is the HEADER section  */
 header {
-    background-color: #92C15A;
+    background-color: #3B7020;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 4%;
+    align-items: center;
+    padding: 3%;
+    padding-left: 0px;
 }
 
 header h1{  /* ---- Ximena Cu  */
     font-size: 40px;
-    color: #3B7020;
-}
+    color: white;
+    background-color: #153A15; /* #153A15  */
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 40%;
+    text-align: center;
+    padding: 0.5%;
+    border: 7px solid #0C1D0F ; /* #0C1D0F  */
+    border-left: 0px;   
+    border-right: 10px solid #0C1D0F ;
+}   
+
 
 header ul {   /* ---- Menu  */ 
     width: 54%;
     display: flex;
     justify-content:space-around;
-    color: orange;
     font-size: 20px;
 }
 
-/* ------------- This is the welcome image section  */
+/* ------------- This is the WELCOME IMAGE section  */
 figure{
     position:relative
 }
@@ -33,16 +45,19 @@ figure{
     height: 300px;
 }
 
-figure div{
+figure div{ /* ---- Menu  */
     position: absolute;
     background-color: #3B7020;
-    color: #0C1D0F;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
     bottom: 20%;
     right: 10%;
-    width: 20%;
+    width: 18%;
+    height: 60%;
     text-align: center;
-    font-size: 30px;
-    border-radius: 50px;
+    font-size: 200%;
+    border-radius: 50px;    
+    padding-top: 3%;
 }
 
 /* ------------- This is the MAIN section  */
@@ -63,18 +78,18 @@ main img{
     border: 15px solid #92C15A;
 }
 
-/* ------------- This is the about me section  */
+/* ------------- This is the ABOUT ME section  */
 .aboutMe{
     display: flex;
     margin-bottom: 7%;
 }
 
-.aboutMe p{
-    padding-left: 20px;
-    /* font-size: 20px; */
+.aboutMe p{ /* ---- about me paragraph  */
+    padding-left: 5%;
+    line-height: 150%;
 }
 
-/* ------------- This is the My Work section  */
+/* ------------- This is the MY WORK  section  */
 .myWork{
     display: flex;
 }
@@ -94,35 +109,45 @@ main img{
     background-color: #92C15A;
     margin-left: 17.5%;
     bottom: 15%;
+    width: 25%;
+    height: 15%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+    padding-top: 2.5%;
 }
 /* ------------------------------------  */
-.lilboxes{  
-    /*  */
-    margin-left: 200px;
+.updown{
     display:flex;
-    flex-wrap: wrap;
-}
-
-.lilboxesboxes{ 
-    width: 50%;
+    justify-content: center;
     position: relative;
 }
 
-#smallimgs{
-    width: 70%;
-    justify-content: right;
-}
-
-.lilboxesboxes div{
+.text{
     background-color: #92C15A;
     position: absolute;
-    bottom: 10%;
-    left: 0%;
-    height: 15%;
+    bottom: 14%;
+    width: 20%;
+    height: 17%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding-top: 1%;
+    padding-left: 1%;
 }
 
-#imgsA{
-    margin: auto;
+#left{
+    left: 20%;
+}
+#right{
+    left: 52%;
+}
+.text p{
+    font-size: 13px;
+}
+
+#smallimgs{
+    width: 30%;
+    margin: 1%;
 }
 
 /* ------------- This is the Contact Me section  */
@@ -132,8 +157,37 @@ main img{
     padding: 5%;
 }
 
-.contactMe ul {   /* ---- Menu  */ 
+.contactMe ul {   
     width: 54%;
     display: flex;
     justify-content:space-around;
+}
+
+/* ------------- This is the Resume section  */
+#Resume{
+    display: flex;
+    justify-content:space-around;
+}
+
+#Resume div{
+    background-color: #153A15;
+    width: 70%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#Resume p{
+    padding-left: 20px;
+    background-color: #3B7020;
+    text-align: center;
+    width: 50%;
+    border-radius: 25px;
+    margin-left:25%;
+}
+
+/* ------------- This is the Resume section  */
+footer{
+    background-color: #92C15A;
+    padding: 2%;
+    text-align: center;
 }
