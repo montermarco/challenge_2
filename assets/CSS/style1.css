@@ -4,7 +4,7 @@ body{
 
 /* ------------- This is the HEADER section  */
 header {
-    background-color: #3B7020;
+    background-color: #92C15A;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
@@ -16,15 +16,15 @@ header {
 header h1{  /* ---- Ximena Cu  */
     font-size: 40px;
     color: white;
-    background-color: #153A15; /* #153A15  */
+    background-color: #ab6fce; /* #153A15  */
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     width: 40%;
     text-align: center;
     padding: 0.5%;
-    border: 7px solid #0C1D0F ; /* #0C1D0F  */
+    /* border: 7px solid #3B7020; #0C1D0F  */
     border-left: 0px;   
-    border-right: 10px solid #0C1D0F ;
+    /* border-right: 10px solid #3B7020 ; */
 }   
 
 
@@ -40,14 +40,25 @@ figure{
     position:relative
 }
 
+figure section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #welcomeimg{
-    width: 100%;
+    /* width: 100%; */
+    height: 300px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+#welcomeimg1{
+    width: 7%;
     height: 300px;
 }
 
-figure div{ /* ---- Menu  */
+figure div{ /* ---- FULL STACK DEV  */
     position: absolute;
-    background-color: #3B7020;
+    background-color: #1f551f; /* ---- #3B7020  */
     font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     bottom: 20%;
@@ -95,7 +106,7 @@ main img{
 }
 
 .bigbox{
-    margin-bottom: 3%;
+    margin-bottom: 1%;
     position: relative;
 }
 
@@ -104,7 +115,7 @@ main img{
     margin-left: 17.5%;
 }
 
-.bigbox div{
+.man{ 
     position: absolute;
     background-color: #92C15A;
     margin-left: 17.5%;
@@ -116,11 +127,23 @@ main img{
     text-align: center;
     padding-top: 2.5%;
 }
+
+main img:hover {
+    border: 20px solid #6e9145;
+}
+
+#bigimg:hover .man {
+    background-color: #795ac1;
+}
+
 /* ------------------------------------  */
 .updown{
     display:flex;
-    justify-content: center;
+    /* justify-content:center; */
     position: relative;
+    padding-left: 20%;
+    width: 80%;
+
 }
 
 .text{
@@ -128,36 +151,40 @@ main img{
     position: absolute;
     bottom: 14%;
     width: 20%;
-    height: 17%;
+    height: 19%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
     padding-top: 1%;
-    padding-left: 1%;
+    padding-left: 2.5%;
 }
-
 #left{
-    left: 20%;
+    left: 25%;
 }
 #right{
-    left: 52%;
+    left: 63%;
 }
 .text p{
     font-size: 13px;
 }
 
-#smallimgs{
-    width: 30%;
-    margin: 1%;
+.smallimgs{
+    width: 98%;
 }
+
+/* .smallimg:hover.text{
+    background-color: #795ac1;
+} */
+
 
 /* ------------- This is the Contact Me section  */
 .contactMe{
     display: flex;
     justify-content:space-evenly;
+    align-items: center;
     padding: 5%;
 }
 
-.contactMe ul {   
+.contactMe ul {  
     width: 54%;
     display: flex;
     justify-content:space-around;
@@ -166,24 +193,20 @@ main img{
 /* ------------- This is the Resume section  */
 #Resume{
     display: flex;
-    justify-content:space-around;
-}
-
-#Resume div{
-    background-color: #153A15;
-    width: 70%;
-    padding: 1%;
-    border-radius: 25px;
+    justify-content:safe;
 }
 
 #Resume p{
-    padding-left: 20px;
-    background-color: #3B7020;
+    background-color:#ab6fce;
+    border-radius: 50px;
+    border: 7px solid #92C15A; 
+    width: 200%;
+    height: 100%;
+    margin-left: 90%;
     text-align: center;
-    width: 50%;
-    border-radius: 25px;
-    margin-left:25%;
+    padding-top: 2%;
 }
+
 
 /* ------------- This is the Resume section  */
 footer{
